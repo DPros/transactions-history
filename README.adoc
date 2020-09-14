@@ -217,7 +217,7 @@ You should see output similar to the following but with a random quotation:
 ....
 
 NOTE: If you see an error that reads, `Could not extract response: no suitable
-HttpMessageConverter found for response type [class com.example.consumingrest.Quote]`, it
+HttpMessageConverter found for response type [class com.example.consumingrest.models.Transaction]`, it
 is possible that you are in an environment that cannot connect to the backend service
 (which sends JSON if you can reach it). Maybe you are behind a corporate proxy. Try
 setting the `http.proxyHost` and `http.proxyPort` system properties to values appropriate
